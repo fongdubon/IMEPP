@@ -76,6 +76,12 @@
     <Compile Include="Entities\Career.cs" />
     <Compile Include="Entities\Coach.cs" />
     <Compile Include="Entities\Company.cs" />
+    <Compile Include="Entities\Companyfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entities\Companyfrm.Designer.cs">
+      <DependentUpon>Companyfrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Entities\Contact.cs" />
     <Compile Include="Entities\Coordinator.cs" />
     <Compile Include="Entities\Student.cs" />
@@ -84,6 +90,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCoach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCoach.Designer.cs">
+      <DependentUpon>FrmCoach.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\202104231903106_initial.cs" />
     <Compile Include="Migrations\202104231903106_initial.designer.cs">
