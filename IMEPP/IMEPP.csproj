@@ -70,6 +70,12 @@
     <Compile Include="Entities\Career.cs" />
     <Compile Include="Entities\Coach.cs" />
     <Compile Include="Entities\Company.cs" />
+    <Compile Include="Entities\Companyfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entities\Companyfrm.Designer.cs">
+      <DependentUpon>Companyfrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Entities\Contact.cs" />
     <Compile Include="Entities\Coordinator.cs" />
     <Compile Include="Entities\Student.cs" />
@@ -86,6 +92,9 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Entities\Companyfrm.resx">
+      <DependentUpon>Companyfrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104231903106_initial.resx">
       <DependentUpon>202104231903106_initial.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,6 +108,13 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\IMEPP.Entities.Adviser.datasource" />
+    <None Include="Properties\DataSources\IMEPP.Entities.Career.datasource" />
+    <None Include="Properties\DataSources\IMEPP.Entities.Coach.datasource" />
+    <None Include="Properties\DataSources\IMEPP.Entities.Company.datasource" />
+    <None Include="Properties\DataSources\IMEPP.Entities.Contact.datasource" />
+    <None Include="Properties\DataSources\IMEPP.Entities.Coordinator.datasource" />
+    <None Include="Properties\DataSources\IMEPP.Entities.Student.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
