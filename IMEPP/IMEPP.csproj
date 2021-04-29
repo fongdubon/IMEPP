@@ -67,12 +67,6 @@
   <ItemGroup>
     <Compile Include="DataContext.cs" />
     <Compile Include="Entities\Adviser.cs" />
-    <Compile Include="Entities\Adviserform.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Entities\Adviserform.Designer.cs">
-      <DependentUpon>Adviserform.cs</DependentUpon>
-    </Compile>
     <Compile Include="Entities\Career.cs" />
     <Compile Include="Entities\Coach.cs" />
     <Compile Include="Entities\Company.cs" />
@@ -92,9 +86,6 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Entities\Adviserform.resx">
-      <DependentUpon>Adviserform.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104231903106_initial.resx">
       <DependentUpon>202104231903106_initial.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,7 +99,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="packages.config" />
-    <None Include="Properties\DataSources\IMEPP.Entities.Adviser.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
