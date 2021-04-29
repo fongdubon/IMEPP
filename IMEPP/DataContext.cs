@@ -1,5 +1,4 @@
 ﻿using IMEPP.Entities;
-using System;
 using System.Data.Entity;
 
 namespace IMEPP
@@ -16,11 +15,6 @@ namespace IMEPP
         public DataContext():base("name=con")
         {
 
-        }
-
-        internal object Entry<T>(object sparePart)
-        {
-            throw new NotImplementedException();
         }
     }
 }
